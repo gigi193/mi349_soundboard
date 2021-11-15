@@ -1,6 +1,6 @@
-let ButtonApplause = document.getElementById('applause');
-let ButtonBubbles = document.getElementById('bubbles');
-let ButtonCamera = document.getElementById('camera');
+let ButtonApplause = document.getElementById('B_applause');
+let ButtonBubbles = document.getElementById('B_bubbles');
+let ButtonCamera = document.getElementById('B_camera');
 
 ButtonApplause.addEventListener("click",function(){
     document.getElementById("applause").play()

@@ -1,8 +1,27 @@
-.button {
+body {
     background-color:aquamarine;
     border-width: 10px;
     border-color:blue;
     border-style:dashed;
     font-size: 15px;
     text-align: center;
+}
+
+h1 {
+    color:darkslateblue;
+}
+
+#B_applause {
+    color: crimson;
+    padding: 15px;
+}
+
+#B_bubbles {
+    color:dodgerblue;
+    padding: 15px;
+}
+
+#B_camera {
+    color:grey;
+    padding: 15px;
 }
