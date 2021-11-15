@@ -1,6 +1,30 @@
-let ButtonApplause = document.querySelector('applause');
-let ButtonBubbles = document.querySelector('bubbles');
-let ButtonCamera = document.querySelector('camera');
+let ButtonApplause = document.getElementById('applause');
+let ButtonBubbles = document.getElementById('bubbles');
+let ButtonCamera = document.getElementById('camera');
+
+ButtonApplause.addEventListener("click",function(){
+    document.getElementById("applause").play()
+})
+
+ButtonApplause.addEventListener("mouseenter",function(){
+    document.getElementById("applause").play()
+})
+
+ButtonBubbles.addEventListener("click",function(){
+    document.getElementById("bubbles").play()
+})
+
+ButtonBubbles.addEventListener("mouseenter",function(){
+    document.getElementById("bubbles").play()
+})
+
+ButtonCamera.addEventListener("click",function(){
+    document.getElementById("camera").play()
+})
+
+ButtonCamera.addEventListener("mouseenter",function(){
+    document.getElementById("camera").play()
+})
 
 function PlaySound1(){
     var sound = new Audio("applause_y.wav");
