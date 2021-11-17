@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Soundboard</title>
 </head>
 <body>
     <h1>Buttons with sound!</h1>
@@ -13,9 +13,10 @@
     <audio id="bubbles" src="bubbles_sfx.wav"></audio>
     <audio id="camera" src="camera1.wav"></audio>
 
-    <button id="B_applause" type="button" onclick="PlaySound1()">Applause</button>
-    <button id="B_bubbles" type="button" onclick="PlaySound1()">Bubbles</button>
-    <button id="B_camera" type="button" onclick="PlaySound1()">Camera</button>
-    <script scr="soundboard.js"></script>
+    <button id="B_applause" type="button" onclick="playSound()">Applause</button>
+    <button id="B_bubbles" type="button" onclick="PlaySound2()">Bubbles</button>
+    <button id="B_camera" type="button" onclick="PlaySound3()">Camera</button>
 </body>
+<script src="soundboard.js"></script>
+
 </html>
